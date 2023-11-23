@@ -1,7 +1,7 @@
 
 
 ```bash
-> cmake .. -G Ninja -DBOOST_ROOT=D:/devtools/boost.1.82.0 -DVTK_DIR=D:\devtools\VTK.9.3.0\lib\cmake\vtk-9.3
+> cmake .. -G Ninja -DBOOST_ROOT=D:/devtools/boost.1.82.0 -DVTK_DIR=D:\devtools\VTK.9.3.0\lib\cmake\vtk-9.3 -DQhull_DIR=D:\devtools\QHULL.8.0.2\lib\cmake\Qhull
 ```
 
 设置运行环境

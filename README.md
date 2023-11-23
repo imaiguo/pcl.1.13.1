@@ -41,6 +41,7 @@
 
 6. OpenNI2
 
+not install
 
 编译
 ```bash
@@ -48,9 +49,9 @@
 > mkdir build & cd build
 > set PKG_CONFIG_PATH=D:/devtools/flann.1.9.2/lib/pkgconfig;D:\devtools\lz4.1.9.4\lib\pkgconfig;%PKG_CONFIG_PATH%
 >
-> cmake .. -G "MinGW Makefiles"  -DCMAKE_BUILD_TYPE=Release -DWITH_VTK=1 -DWITH_QHULL=1 -DWITH_OPENNI2=1 -DCMAKE_INSTALL_PREFIX=D:\devtools\pcl.1.13.1 -DEIGEN_INCLUDE_DIR=D:/devtools/elgen.3.4.0/include/eigen3 -DBOOST_ROOT=D:/devtools/boost.1.82.0 -DVTK_DIR=D:\devtools\VTK.9.3.0\lib\cmake\vtk-9.3 -DQhull_DIR=D:\devtools\QHULL.8.0.2\lib\cmake\Qhull
+> cmake .. -G "MinGW Makefiles"  -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=D:\devtools\pcl.1.13.1 -DEIGEN_INCLUDE_DIR=D:/devtools/eigen.3.4.0/include/eigen3 -DBOOST_ROOT=D:/devtools/boost.1.82.0 -DVTK_DIR=D:\devtools\VTK.9.3.0\lib\cmake\vtk-9.3 -DQhull_DIR=D:\devtools\QHULL.8.0.2\lib\cmake\Qhull
 >
-> cmake .. -G "MinGW Makefiles"  -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=D:\devtools\pcl.1.13.1 -DEIGEN_INCLUDE_DIR=D:/devtools/elgen.3.4.0/include/eigen3 -DBOOST_ROOT=D:/devtools/boost.1.82.0 -DVTK_DIR=D:\devtools\VTK.9.3.0\lib\cmake\vtk-9.3 -DQhull_DIR=D:\devtools\QHULL.8.0.2\lib\cmake\Qhull
+> cmake .. -G "MinGW Makefiles"  -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=D:\devtools\pcl.1.13.1d -DEIGEN_INCLUDE_DIR=D:/devtools/eigen.3.4.0/include/eigen3 -DBOOST_ROOT=D:/devtools/boost.1.82.0 -DVTK_DIR=D:\devtools\VTK.9.3.0\lib\cmake\vtk-9.3 -DQhull_DIR=D:\devtools\QHULL.8.0.2\lib\cmake\Qhull
 >
 > mingw32-make.exe -j12
 ```
