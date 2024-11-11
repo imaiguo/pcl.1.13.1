@@ -33,7 +33,7 @@
 
 ### Debug 编译
 ```bash
-> cmake .. -G "MinGW Makefiles"  -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=D:\devtools\pcl.1.13.1\debug -DEIGEN_INCLUDE_DIR=D:/devtools/eigen.3.4.0/include/eigen3 -DBOOST_ROOT=D:/devtools/boost.mingw64.1.82.0 -DVTK_DIR=D:\devtools\VTK.9.3.0\lib\cmake\vtk-9.3 -DQhull_DIR=D:\devtools\QHULL.8.0.2\lib\cmake\Qhull
+> cmake -B build -G Ninja  -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=D:\devtools\pcl.1.13.1 -DEIGEN_INCLUDE_DIR=D:\devtools\eigen.3.4.0\include\eigen3 -DBOOST_ROOT=D:\devtools\boost.1.82.0 -DVTK_DIR=D:\devtools\VTK.9.3.0\lib\cmake\vtk-9.3 -DQhull_DIR=D:\devtools\QHULL.8.0.2\lib\cmake\Qhull -Dflann_DIR=D:\devtools\flann.1.9.2\debug\lib\cmake\flann -DLZ4_INCLUDE_DIRS=D:\devtools\lz4.1.9.4\debug\include
 >
 ```
 
